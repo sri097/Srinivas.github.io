@@ -5,6 +5,11 @@
     border: none;
     box-sizing: border-box;
 }
+p{
+    color:yellow;
+   
+}
+
 
 html{
     font-size: 62.5%;
@@ -194,8 +199,4 @@ table{
 .Project .Row .det h3 span{
     color: #eee;
     padding: 0. 5rem;
-}
-p{
-    color:yellow;
-   
 }
