@@ -1,0 +1,55 @@
+
+<html>
+<head>
+    
+    <title>Form Validation </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form id="form" onsubmit=" return validate()"  action="https://www.google.com/" >
+           First Name:<input type="text" id = "fname" placeholder="Ex: Raj"> 
+           <span id="fnamemsg">*</span><br> <br>
+           Last Name :<input type="text" id = "lname" placeholder="Ex: Sharma">
+           <span id="lnamemsg">*</span><br> <br>
+           Email : <input type="email" id = "email" placeholder="Ex:rajusharma@gmail.com">
+           <span id="emailmsg">*</span> <br> <br>
+           DOB: <input type="date" min= "1990-01-20" max="2000-01-01"><br>  <br>
+           Phone No <input type ="number" id= "phoneno"> 
+           <span id = "phonemsg">*</span> <br> <br>
+           Gender:
+          <input type="radio" value="Male" name = "Gender">Male
+          <input type="radio" value="Female" name = "Gender">Female
+          <input type="radio" value="Others" name = "Gender">Others <br><br>
+          Password: : <input type="password" id="password" >
+          <span id="passwordmsg">*</span> <br> <br>
+          Confirm 
+              Password: <input type="password" id="cpassword"> 
+              <span id="cpasswordmsg">*</span><br> <br>   
+          Country
+          <select >
+              <option value="Select"> Select</option>
+              <option value="India" >India</option>
+              <option value="UK" >United Kingdom</option>
+              <option value="USA" >United States of America</option>
+              <option value="Russia" >Russia</option>
+              <option value="Sweden" >Sweden</option>
+              <option value="Iceland" >Iceland</option>
+          </select> <br>  <br>
+          Technical Skills 
+          <input type="checkbox" value="C">C
+          <input type="checkbox" value="C++">C++
+          <input type="checkbox" value="Java">Java
+          <input type="checkbox" value="Python">Python <br> <br>
+          Upload file 
+          <input type="file"> <br> <br>
+           Comment:
+          <textarea ></textarea>  <br> <br>
+          <input type="Submit">
+          <input type="Reset">  
+    </form>
+
+    <script src = "form.js"></script>
+
+   
+</body>
+</html>
