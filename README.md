@@ -1,2 +1,0 @@
-# Srinivas.github.io
-Portfolio
