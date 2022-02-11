@@ -26,7 +26,7 @@ body{
 }
 
 .heading span{
-    color: red;
+    color: yellow;
 }
 
 .title{
@@ -39,7 +39,7 @@ body{
 }
 
 .title span{
-    color: red;
+    color: yellow;
 }
 
 .head{
@@ -51,7 +51,7 @@ body{
     color: #fff;
 }
 .head span{
-    color: red;
+    color: yellow;
 }
 .pro{
     text-align: center;
